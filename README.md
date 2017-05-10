@@ -12,7 +12,7 @@
 * Provided place to fork current
 * Demensions: 31.0 x 12.8 mm
 
-For more information about the MCP73831 please click [here](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/MCP738312.pdf)
+For more information about the MCP73831 please click [here](http://www.microchip.com/wwwproducts/en/en024903)
 
 ## Where to get?
-You can buy this item on Tindie from the [November Five's hardware shop](https://www.tindie.com/products/novemberfive/basic-lipo-battery-charger/). 
+You can buy this item on Tindie from the [November Five's hardware shop](https://www.tindie.com/products/novemberfive/basic-lipo-battery-charger/).

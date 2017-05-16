@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="8.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3620,7 +3620,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="NovemberFive-Basic" deviceset="CAPACITOR" device="" value="4.7uF"/>
 <part name="C2" library="NovemberFive-Basic" deviceset="CAPACITOR" device="" value="4.7uF"/>
-<part name="R1" library="NovemberFive-Basic" deviceset="RESISTOR" device="" value="470"/>
+<part name="R1" library="NovemberFive-Basic" deviceset="RESISTOR" device="" value="120"/>
 <part name="R2" library="NovemberFive-Basic" deviceset="RESISTOR" device="" value="2K"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="10MOHM" device="-HORIZ-1/4W-5%" value=""/>
@@ -3647,21 +3647,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C1" gate="G$1" x="17.78" y="38.1" smashed="yes">
 <attribute name="NAME" x="19.304" y="41.021" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="C2" gate="G$1" x="83.82" y="35.56" smashed="yes">
-<attribute name="NAME" x="85.344" y="38.481" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="R1" gate="G$1" x="30.48" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.036" y="39.116" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-</instance>
-<instance part="R2" gate="G$1" x="71.12" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="68.58" y="44.196" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-</instance>
+<instance part="C2" gate="G$1" x="83.82" y="35.56"/>
+<instance part="R1" gate="G$1" x="30.48" y="35.56" rot="R90"/>
+<instance part="R2" gate="G$1" x="71.12" y="40.64" rot="R90"/>
 <instance part="D1" gate="G$1" x="30.48" y="48.26" smashed="yes">
 <attribute name="NAME" x="32.258" y="47.244" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="32.258" y="45.974" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="R3" gate="G$1" x="76.2" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="79.502" y="42.418" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="NAME" x="74.676" y="40.64" size="1.27" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="77.724" y="40.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="J3" gate="G$1" x="104.14" y="66.04" smashed="yes" rot="R270">

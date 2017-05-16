@@ -1757,17 +1757,16 @@ design rules under a new name.</description>
 <contactref element="U1" pad="5"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R3" pad="P$2"/>
-<wire x1="26.25" y1="51.25" x2="26.25" y2="53.34" width="0.254" layer="1"/>
-<wire x1="26.625" y1="50.875" x2="26.25" y2="51.25" width="0.254" layer="1"/>
-<wire x1="26.625" y1="50.875" x2="26.67" y2="50.8" width="0.254" layer="1"/>
-<wire x1="19.625" y1="53" x2="18.5" y2="53" width="0.254" layer="1"/>
-<wire x1="21" y1="51.625" x2="19.625" y2="53" width="0.254" layer="1"/>
-<wire x1="25.625" y1="51.625" x2="21" y2="51.625" width="0.254" layer="16"/>
-<wire x1="26.375" y1="50.875" x2="25.625" y2="51.625" width="0.254" layer="16"/>
-<wire x1="26.625" y1="50.875" x2="26.375" y2="50.875" width="0.254" layer="16"/>
-<wire x1="18.5" y1="53" x2="18.3849" y2="53.025" width="0.254" layer="1"/>
-<wire x1="26.625" y1="50.875" x2="26.67" y2="50.8" width="0.254" layer="16"/>
-<via x="21" y="51.625" extent="1-16" drill="0.6096"/>
+<wire x1="18.3849" y1="53.025" x2="18.5" y2="53" width="0.254" layer="1"/>
+<via x="22.778" y="52.387" extent="1-16" drill="0.6096"/>
+<wire x1="26.67" y1="50.8" x2="26.67" y2="52.92" width="0.254" layer="1"/>
+<wire x1="26.67" y1="52.92" x2="26.25" y2="53.34" width="0.254" layer="1"/>
+<wire x1="19.668125" y1="53" x2="20.248325" y2="52.4198" width="0.254" layer="1"/>
+<wire x1="22.7452" y1="52.4198" x2="22.778" y2="52.387" width="0.254" layer="1"/>
+<wire x1="20.248325" y1="52.4198" x2="22.7452" y2="52.4198" width="0.254" layer="1"/>
+<wire x1="18.5" y1="53" x2="19.668125" y2="53" width="0.254" layer="1"/>
+<wire x1="22.778" y1="52.387" x2="25.083" y2="52.387" width="0.254" layer="16"/>
+<wire x1="25.083" y1="52.387" x2="26.67" y2="50.8" width="0.254" layer="16"/>
 </signal>
 <signal name="VBAT">
 <contactref element="U1" pad="3"/>

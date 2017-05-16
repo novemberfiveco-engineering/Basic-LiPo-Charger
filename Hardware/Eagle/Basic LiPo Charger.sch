@@ -3647,7 +3647,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C1" gate="G$1" x="17.78" y="38.1" smashed="yes">
 <attribute name="NAME" x="19.304" y="41.021" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="C2" gate="G$1" x="83.82" y="35.56"/>
+<instance part="C2" gate="G$1" x="83.82" y="35.56" smashed="yes">
+<attribute name="NAME" x="85.344" y="38.481" size="1.778" layer="95" font="vector"/>
+</instance>
 <instance part="R1" gate="G$1" x="30.48" y="35.56" rot="R90"/>
 <instance part="R2" gate="G$1" x="71.12" y="40.64" rot="R90"/>
 <instance part="D1" gate="G$1" x="30.48" y="48.26" smashed="yes">
@@ -3655,7 +3657,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="32.258" y="45.974" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="R3" gate="G$1" x="76.2" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.676" y="40.64" size="1.27" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="74.676" y="40.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="77.724" y="40.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="J3" gate="G$1" x="104.14" y="66.04" smashed="yes" rot="R270">
